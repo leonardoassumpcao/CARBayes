@@ -17,7 +17,7 @@ X.sd <- frame.results$X.sd
 X.mean <- frame.results$X.mean
 X.indicator <- frame.results$X.indicator 
 offset <- frame.results$offset
-Y <- frame.results$Y
+Y <- as.matrix(frame.results$Y)
 which.miss <- frame.results$which.miss
 n.miss <- frame.results$n.miss  
 J <- ncol(Y)
